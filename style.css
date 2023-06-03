@@ -319,6 +319,11 @@ gap: 20px;
     text-align: left;
 }
 
+.items{
+    gap: 40px; 
+    margin-top:   10px;
+}
+
 /* footer */
 
 .footer{
