@@ -1,0 +1,209 @@
+/* Making Our Website in Responsive */
+
+@media screen and (max-width:1000px) {
+
+
+
+    
+    .nav-toogle{
+        display: block;
+        margin-right: 20px;
+    
+    }
+
+    .navbar{
+        overflow: initial;
+    }
+
+
+    .nav-link{
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block:20px;
+        transition: 0.2 ease-out;
+        
+
+    }
+   
+
+    .nav-link.active{
+        left: 0;
+    }
+
+
+    .nav-link ul{
+        flex-direction: column;
+    }
+
+
+    .tester-button{
+        display: none;
+    }
+
+    .example-card {
+        width: 40%;
+    }
+
+    .example-image{
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .primary-button{
+        width: 100%;
+    }
+  
+    .header-section{
+
+        flex-direction: column-reverse;
+    }
+    
+   
+
+    .header-left{
+        max-width: 100vw;
+        text-align: center;
+    }
+
+    .features-card{
+        max-width: 50%;
+    }
+
+    .feature-container{
+        flex-direction: column;
+    }
+    
+
+    .feature-container1{
+        
+        flex-direction: column-reverse;
+    }
+    
+    .feature-img{
+        margin-bottom: 20px;
+    }
+
+    
+    .feature-container2{
+        margin-block: 40px;
+        flex-direction: column;
+    }
+
+
+    .big-feature-section{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+  
+
+    .example{
+        padding-top: 80px;
+    
+    }
+
+    .cta-container{
+        flex-direction: column-reverse;
+        padding: 30px;
+        text-align: center;
+    }
+   
+
+    .items{
+        text-align: center;
+    }
+    .feature-img{
+        width: 70%;
+    }
+    .feature-description1{
+        text-align: center;
+    }
+
+    .footer-item{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .terms-data {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+
+    @media screen and (max-width:569px) {
+
+         .example-image{
+            height: 200px;
+            gap: 20px;
+        }
+
+    }
+
+
+
+    @media screen and (max-width:479px) {
+
+
+        :root {
+
+           
+            --padding-inline-section:10px;
+        
+        }
+
+        
+h1{
+    font-size: 1.9rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
+p{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 1.15rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+
+.features-card{
+    min-width: 100%;
+}
+
+.feature-section{
+    margin-top: 50px;}
+
+.features-header{
+    margin-bottom: 20px;
+}
+
+
+.features-item{
+    margin: 30px;
+}
+
+        .example-images{
+        
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+          
+       }
+
+   }
+}
